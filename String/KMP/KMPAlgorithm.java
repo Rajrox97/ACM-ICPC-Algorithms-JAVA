@@ -1,3 +1,5 @@
+
+
 public class KMPAlgorithm {
 
     public static int[] computeFailureFunction(String pattern) {
@@ -57,7 +59,7 @@ The Knuth-Morris-Pratt (KMP) algorithm is a string searching algorithm that effi
 
 The key idea behind the KMP algorithm is to utilize the information gained from previous comparisons to avoid unnecessary backtracking. It achieves this by constructing a "failure function" or "partial match table" that indicates how much to shift the pattern when a mismatch occurs, instead of going back to the beginning of the pattern for each mismatch.
 
-Here's a high-level overview of how the KMP algorithm works:
+Here's a high-level overview of how the KMP algorithm works: 
 
 1. Preprocess the pattern to construct the failure function (partial match table). This table helps to decide how much to shift the pattern when a mismatch occurs.
 
